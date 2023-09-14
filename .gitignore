@@ -130,4 +130,4 @@ dist
 .pnp.*
 
 # SQLite dev
-dev.db
+dev.db*
