@@ -5,3 +5,16 @@ GET http://localhost:3000 HTTP/1.1
 
 # @name get-prompts
 GET http://localhost:3000/prompts HTTP/1.1
+
+###
+
+# @name post-videos
+POST http://localhost:3000/videos HTTP/1.1
+Content-Type: multipart/form-data; boundary=----PostVideoBody
+
+------PostVideoBody
+Content-Disposition: form-data; name="file"; filename="example.mp3"
+Content-Type: audio/mpeg
+
+< ./example.mp3
+------PostVideoBody--
