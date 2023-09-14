@@ -1,2 +1,7 @@
 # @name index
 GET http://localhost:3000 HTTP/1.1
+
+###
+
+# @name get-prompts
+GET http://localhost:3000/prompts HTTP/1.1
