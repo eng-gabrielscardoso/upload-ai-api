@@ -8,6 +8,16 @@ GET http://localhost:3000/prompts HTTP/1.1
 
 ###
 
+# @name post-transcriptions
+POST http://localhost:3000/transcriptions/893a921d-7c25-49ad-ae54-29ebd2c6eb33 HTTP/1.1
+Content-Type: application/json
+
+{
+  "prompt": "typescript,javascript,nodejs,node,js,ts"
+}
+
+###
+
 # @name post-videos
 POST http://localhost:3000/videos HTTP/1.1
 Content-Type: multipart/form-data; boundary=----PostVideoBody

@@ -20,7 +20,8 @@
     "@types/node": "^20.6.0",
     "prisma": "^5.3.0",
     "tsx": "^3.12.10",
-    "typescript": "^5.2.2"
+    "typescript": "^5.2.2",
+    "zod": "^3.22.2"
   },
   "dependencies": {
     "@fastify/multipart": "^7.7.3",
@@ -28,6 +29,7 @@
     "@types/lodash": "^4.14.198",
     "dotenv-safe": "^8.2.0",
     "fastify": "^4.23.2",
-    "lodash": "^4.17.21"
+    "lodash": "^4.17.21",
+    "openai": "^4.7.0"
   }
 }

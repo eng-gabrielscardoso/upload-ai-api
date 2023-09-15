@@ -12,5 +12,5 @@
   "[typescript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "cSpell.words": ["Fastify"]
+  "cSpell.words": ["Fastify", "OPENAI"]
 }

@@ -2,6 +2,7 @@ import * as dotenv from "dotenv-safe";
 import { fastify } from "fastify";
 import { indexRoutes } from "./routes/index.routes";
 import { promptsRoutes } from "./routes/prompts.routes";
+import { transcriptionsRoutes } from "./routes/transcriptions.routes";
 import { videosRoutes } from "./routes/videos.routes";
 
 /**
@@ -17,6 +18,8 @@ const app = fastify();
 app.register(indexRoutes);
 
 app.register(promptsRoutes);
+
+app.register(transcriptionsRoutes);
 
 app.register(videosRoutes);
 
