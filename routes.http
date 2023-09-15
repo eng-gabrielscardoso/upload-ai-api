@@ -3,13 +3,25 @@ GET http://localhost:3000 HTTP/1.1
 
 ###
 
+# @name post-completions
+POST http://localhost:3000/completions HTTP/1.1
+Content-Type: application/json
+
+{
+  "videoId": "ae988b7d-d4bb-4846-a26d-6ab860b97589",
+  "template": "Generate a summary from video transcription informed as follows: '''{transcription}'''",
+  "temperature": 0.2
+}
+
+###
+
 # @name get-prompts
 GET http://localhost:3000/prompts HTTP/1.1
 
 ###
 
 # @name post-transcriptions
-POST http://localhost:3000/transcriptions/893a921d-7c25-49ad-ae54-29ebd2c6eb33 HTTP/1.1
+POST http://localhost:3000/transcriptions/ae988b7d-d4bb-4846-a26d-6ab860b97589 HTTP/1.1
 Content-Type: application/json
 
 {

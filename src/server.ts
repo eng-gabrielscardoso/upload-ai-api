@@ -1,5 +1,6 @@
 import * as dotenv from "dotenv-safe";
 import { fastify } from "fastify";
+import { completionsRoutes } from "./routes/completions.routes";
 import { indexRoutes } from "./routes/index.routes";
 import { promptsRoutes } from "./routes/prompts.routes";
 import { transcriptionsRoutes } from "./routes/transcriptions.routes";
@@ -15,6 +16,8 @@ const app = fastify();
 /**
  * Application routes
  */
+app.register(completionsRoutes);
+
 app.register(indexRoutes);
 
 app.register(promptsRoutes);
