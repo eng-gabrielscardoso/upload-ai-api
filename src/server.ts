@@ -1,3 +1,4 @@
+import { fastifyCors } from "@fastify/cors";
 import * as dotenv from "dotenv-safe";
 import { fastify } from "fastify";
 import { completionsRoutes } from "./routes/completions.routes";
@@ -12,6 +13,13 @@ import { videosRoutes } from "./routes/videos.routes";
 dotenv.config();
 
 const app = fastify();
+
+/**
+ * Application CORS
+ */
+app.register(fastifyCors, {
+  origin: "*",
+});
 
 /**
  * Application routes
