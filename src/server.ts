@@ -17,6 +17,12 @@ const app = fastify();
 /**
  * Application CORS
  */
+
+/**
+ * This config must be refactored as soon as possible
+ *
+ * @author eng-gabrielscardoso
+ */
 app.register(fastifyCors, {
   origin: "*",
 });

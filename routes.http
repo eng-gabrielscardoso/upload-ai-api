@@ -9,7 +9,7 @@ Content-Type: application/json
 
 {
   "videoId": "ae988b7d-d4bb-4846-a26d-6ab860b97589",
-  "template": "Generate a summary from video transcription informed as follows: '''{transcription}'''",
+  "prompt": "Generate a summary from video transcription informed as follows: '''{transcription}'''",
   "temperature": 0.2
 }
 

@@ -1,3 +1,4 @@
+import { OpenAIStream, streamToResponse } from "ai";
 import { FastifyInstance, FastifyReply, FastifyRequest } from "fastify";
 import isNull from "lodash/isNull";
 import { z } from "zod";
@@ -10,11 +11,11 @@ export async function completionsRoutes(app: FastifyInstance) {
     async (request: FastifyRequest, reply: FastifyReply) => {
       const bodySchema = z.object({
         videoId: z.string().uuid(),
-        template: z.string(),
+        prompt: z.string(),
         temperature: z.number().min(0).max(1).default(0.5),
       });
 
-      const { videoId, template, temperature } = bodySchema.parse(request.body);
+      const { videoId, prompt, temperature } = bodySchema.parse(request.body);
 
       const video = await prisma.video.findUniqueOrThrow({
         where: {
@@ -28,7 +29,7 @@ export async function completionsRoutes(app: FastifyInstance) {
         });
       }
 
-      const promptMessage = template.replace(
+      const promptMessage = prompt.replace(
         "{transcription}",
         video.transcription
       );
@@ -42,9 +43,23 @@ export async function completionsRoutes(app: FastifyInstance) {
             content: promptMessage,
           },
         ],
+        stream: true,
       });
 
-      return reply.status(201).send(response);
+      const stream = OpenAIStream(response);
+
+      streamToResponse(stream, reply.raw, {
+        headers: {
+          /**
+           * This config must be refactored as soon as possible
+           *
+           * @author eng-gabrielscardoso
+           */
+          "Access-Control-Allow-Origin": "*",
+          "Access-Control-Allow-Methods": "POST",
+        },
+        status: 201,
+      });
     }
   );
 }
