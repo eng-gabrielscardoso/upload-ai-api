@@ -18,8 +18,8 @@ dependencies:
     specifier: ^4.14.198
     version: 4.14.198
   ai:
-    specifier: ^2.2.15
-    version: 2.2.15(react@18.2.0)(solid-js@1.7.11)(svelte@4.2.0)(vue@3.3.4)
+    specifier: ^2.2.17
+    version: 2.2.17(react@18.2.0)(solid-js@1.7.11)(svelte@4.2.0)(vue@3.3.4)
   dotenv-safe:
     specifier: ^8.2.0
     version: 8.2.0
@@ -576,8 +576,8 @@ packages:
       humanize-ms: 1.2.1
     dev: false
 
-  /ai@2.2.15(react@18.2.0)(solid-js@1.7.11)(svelte@4.2.0)(vue@3.3.4):
-    resolution: {integrity: sha512-pl3cWgb2aM6HQo/heX/oIH0TlXXI9hOyT2n6KokNPjLTfWiPFGZ6thXLEi80xaS0tvtAc30qJqwt8VtSsfLNLA==}
+  /ai@2.2.17(react@18.2.0)(solid-js@1.7.11)(svelte@4.2.0)(vue@3.3.4):
+    resolution: {integrity: sha512-A84UTv5/qSyuDcTfrtnCvKRxIHYunCOMyRLEvVGaJJLw3slnUpPf/tD9WfxNEO8Gh3thmI3xDWkEmqt1vYXEaw==}
     engines: {node: '>=14.6'}
     peerDependencies:
       react: ^18.2.0
