@@ -27,7 +27,7 @@
     "zod": "^3.22.4"
   },
   "dependencies": {
-    "@fastify/cors": "^8.4.0",
+    "@fastify/cors": "^8.4.1",
     "@fastify/multipart": "^8.0.0",
     "@prisma/client": "5.4.2",
     "@types/lodash": "^4.14.198",
