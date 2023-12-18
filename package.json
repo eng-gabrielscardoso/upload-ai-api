@@ -33,7 +33,7 @@
     "@types/lodash": "^4.14.198",
     "ai": "^2.2.22",
     "dotenv-safe": "^8.2.0",
-    "fastify": "^4.24.2",
+    "fastify": "^4.25.1",
     "lodash": "^4.17.21",
     "openai": "^4.12.1"
   }
