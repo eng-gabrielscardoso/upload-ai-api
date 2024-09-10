@@ -20,7 +20,7 @@
     "seed": "tsx prisma/seed.ts"
   },
   "devDependencies": {
-    "@types/node": "^20.9.0",
+    "@types/node": "^20.11.17",
     "prisma": "^5.4.2",
     "tsx": "^4.7.1",
     "typescript": "^5.2.2",
