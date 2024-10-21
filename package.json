@@ -28,7 +28,7 @@
   },
   "dependencies": {
     "@fastify/cors": "^10.0.1",
-    "@fastify/multipart": "^8.0.0",
+    "@fastify/multipart": "^9.0.1",
     "@prisma/client": "5.20.0",
     "@types/lodash": "^4.17.7",
     "ai": "^2.2.22",
