@@ -22,7 +22,7 @@ importers:
         version: 4.17.13
       ai:
         specifier: ^4.0.18
-        version: 4.0.18(react@18.2.0)(zod@3.23.8)
+        version: 4.0.18(react@18.2.0)(zod@3.24.1)
       dotenv-safe:
         specifier: ^9.1.0
         version: 9.1.0(dotenv@8.6.0)
@@ -34,7 +34,7 @@ importers:
         version: 4.17.21
       openai:
         specifier: ^4.76.0
-        version: 4.76.0(zod@3.23.8)
+        version: 4.76.0(zod@3.24.1)
     devDependencies:
       '@types/node':
         specifier: ^22.10.2
@@ -49,8 +49,8 @@ importers:
         specifier: ^5.7.2
         version: 5.7.2
       zod:
-        specifier: ^3.23.8
-        version: 3.23.8
+        specifier: ^3.24.1
+        version: 3.24.1
 
 packages:
 
@@ -694,41 +694,41 @@ packages:
     peerDependencies:
       zod: ^3.23.3
 
-  zod@3.23.8:
-    resolution: {integrity: sha512-XBx9AXhXktjUqnepgTiE5flcKIYWi/rme0Eaj+5Y0lftuGBq+jyRu/md4WnuxqgP1ubdpNCsYEYPxrzVHD8d6g==}
+  zod@3.24.1:
+    resolution: {integrity: sha512-muH7gBL9sI1nciMZV67X5fTKKBLtwpZ5VBp1vsOQzj1MhrBZ4wlVCm3gedKZWLp0Oyel8sIGfeiz54Su+OVT+A==}
 
 snapshots:
 
-  '@ai-sdk/provider-utils@2.0.4(zod@3.23.8)':
+  '@ai-sdk/provider-utils@2.0.4(zod@3.24.1)':
     dependencies:
       '@ai-sdk/provider': 1.0.2
       eventsource-parser: 3.0.0
       nanoid: 3.3.8
       secure-json-parse: 2.7.0
     optionalDependencies:
-      zod: 3.23.8
+      zod: 3.24.1
 
   '@ai-sdk/provider@1.0.2':
     dependencies:
       json-schema: 0.4.0
 
-  '@ai-sdk/react@1.0.6(react@18.2.0)(zod@3.23.8)':
+  '@ai-sdk/react@1.0.6(react@18.2.0)(zod@3.24.1)':
     dependencies:
-      '@ai-sdk/provider-utils': 2.0.4(zod@3.23.8)
-      '@ai-sdk/ui-utils': 1.0.5(zod@3.23.8)
+      '@ai-sdk/provider-utils': 2.0.4(zod@3.24.1)
+      '@ai-sdk/ui-utils': 1.0.5(zod@3.24.1)
       swr: 2.2.5(react@18.2.0)
       throttleit: 2.1.0
     optionalDependencies:
       react: 18.2.0
-      zod: 3.23.8
+      zod: 3.24.1
 
-  '@ai-sdk/ui-utils@1.0.5(zod@3.23.8)':
+  '@ai-sdk/ui-utils@1.0.5(zod@3.24.1)':
     dependencies:
       '@ai-sdk/provider': 1.0.2
-      '@ai-sdk/provider-utils': 2.0.4(zod@3.23.8)
-      zod-to-json-schema: 3.23.5(zod@3.23.8)
+      '@ai-sdk/provider-utils': 2.0.4(zod@3.24.1)
+      zod-to-json-schema: 3.23.5(zod@3.24.1)
     optionalDependencies:
-      zod: 3.23.8
+      zod: 3.24.1
 
   '@esbuild/aix-ppc64@0.23.1':
     optional: true
@@ -887,18 +887,18 @@ snapshots:
     dependencies:
       humanize-ms: 1.2.1
 
-  ai@4.0.18(react@18.2.0)(zod@3.23.8):
+  ai@4.0.18(react@18.2.0)(zod@3.24.1):
     dependencies:
       '@ai-sdk/provider': 1.0.2
-      '@ai-sdk/provider-utils': 2.0.4(zod@3.23.8)
-      '@ai-sdk/react': 1.0.6(react@18.2.0)(zod@3.23.8)
-      '@ai-sdk/ui-utils': 1.0.5(zod@3.23.8)
+      '@ai-sdk/provider-utils': 2.0.4(zod@3.24.1)
+      '@ai-sdk/react': 1.0.6(react@18.2.0)(zod@3.24.1)
+      '@ai-sdk/ui-utils': 1.0.5(zod@3.24.1)
       '@opentelemetry/api': 1.9.0
       jsondiffpatch: 0.6.0
-      zod-to-json-schema: 3.23.5(zod@3.23.8)
+      zod-to-json-schema: 3.23.5(zod@3.24.1)
     optionalDependencies:
       react: 18.2.0
-      zod: 3.23.8
+      zod: 3.24.1
 
   ajv-formats@3.0.1(ajv@8.12.0):
     optionalDependencies:
@@ -1116,7 +1116,7 @@ snapshots:
 
   on-exit-leak-free@2.1.0: {}
 
-  openai@4.76.0(zod@3.23.8):
+  openai@4.76.0(zod@3.24.1):
     dependencies:
       '@types/node': 18.17.15
       '@types/node-fetch': 2.6.5
@@ -1126,7 +1126,7 @@ snapshots:
       formdata-node: 4.4.1
       node-fetch: 2.7.0
     optionalDependencies:
-      zod: 3.23.8
+      zod: 3.24.1
     transitivePeerDependencies:
       - encoding
 
@@ -1266,8 +1266,8 @@ snapshots:
       tr46: 0.0.3
       webidl-conversions: 3.0.1
 
-  zod-to-json-schema@3.23.5(zod@3.23.8):
+  zod-to-json-schema@3.23.5(zod@3.24.1):
     dependencies:
-      zod: 3.23.8
+      zod: 3.24.1
 
-  zod@3.23.8: {}
+  zod@3.24.1: {}
