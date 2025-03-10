@@ -16,7 +16,7 @@ importers:
         version: 9.0.3
       '@prisma/client':
         specifier: 6.4.1
-        version: 6.4.1(prisma@6.4.1(typescript@5.7.3))(typescript@5.7.3)
+        version: 6.4.1(prisma@6.4.1(typescript@5.8.2))(typescript@5.8.2)
       '@types/lodash':
         specifier: ^4.17.15
         version: 4.17.15
@@ -41,13 +41,13 @@ importers:
         version: 22.13.10
       prisma:
         specifier: ^6.4.1
-        version: 6.4.1(typescript@5.7.3)
+        version: 6.4.1(typescript@5.8.2)
       tsx:
         specifier: ^4.19.3
         version: 4.19.3
       typescript:
-        specifier: ^5.7.3
-        version: 5.7.3
+        specifier: ^5.8.2
+        version: 5.8.2
       zod:
         specifier: ^3.24.2
         version: 3.24.2
@@ -748,8 +748,8 @@ packages:
     engines: {node: '>=18.0.0'}
     hasBin: true
 
-  typescript@5.7.3:
-    resolution: {integrity: sha512-84MVSjMEHP+FQRPy3pX9sTVV/INIex71s9TL2Gm5FG/WG1SqXeKyZ0k7/blY/4FdOzI12CBy1vGc4og/eus0fw==}
+  typescript@5.8.2:
+    resolution: {integrity: sha512-aJn6wq13/afZp/jT9QZmwEjDqqvSGp1VT5GVg+f/t6/oVyrgXM6BY1h9BRh/O5p3PlUPAe+WuiEZOmb/49RqoQ==}
     engines: {node: '>=14.17'}
     hasBin: true
 
@@ -935,10 +935,10 @@ snapshots:
 
   '@opentelemetry/api@1.9.0': {}
 
-  '@prisma/client@6.4.1(prisma@6.4.1(typescript@5.7.3))(typescript@5.7.3)':
+  '@prisma/client@6.4.1(prisma@6.4.1(typescript@5.8.2))(typescript@5.8.2)':
     optionalDependencies:
-      prisma: 6.4.1(typescript@5.7.3)
-      typescript: 5.7.3
+      prisma: 6.4.1(typescript@5.8.2)
+      typescript: 5.8.2
 
   '@prisma/debug@6.4.1': {}
 
@@ -1322,14 +1322,14 @@ snapshots:
       sonic-boom: 4.1.0
       thread-stream: 3.1.0
 
-  prisma@6.4.1(typescript@5.7.3):
+  prisma@6.4.1(typescript@5.8.2):
     dependencies:
       '@prisma/engines': 6.4.1
       esbuild: 0.25.0
       esbuild-register: 3.6.0(esbuild@0.25.0)
     optionalDependencies:
       fsevents: 2.3.3
-      typescript: 5.7.3
+      typescript: 5.8.2
     transitivePeerDependencies:
       - supports-color
 
@@ -1416,7 +1416,7 @@ snapshots:
     optionalDependencies:
       fsevents: 2.3.3
 
-  typescript@5.7.3: {}
+  typescript@5.8.2: {}
 
   undici-types@5.26.5: {}
 
