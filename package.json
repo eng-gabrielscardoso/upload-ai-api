@@ -29,7 +29,7 @@
   "dependencies": {
     "@fastify/cors": "^11.0.0",
     "@fastify/multipart": "^9.0.3",
-    "@prisma/client": "6.4.1",
+    "@prisma/client": "6.5.0",
     "@types/lodash": "^4.17.16",
     "ai": "^4.1.61",
     "dotenv-safe": "^9.1.0",
