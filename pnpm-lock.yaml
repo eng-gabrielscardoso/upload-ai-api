@@ -37,8 +37,8 @@ importers:
         version: 5.8.2(zod@3.25.74)
     devDependencies:
       '@types/node':
-        specifier: ^24.0.10
-        version: 24.0.10
+        specifier: ^24.0.13
+        version: 24.0.13
       prisma:
         specifier: ^6.11.1
         version: 6.11.1(typescript@5.8.3)
@@ -303,8 +303,8 @@ packages:
   '@types/lodash@4.17.20':
     resolution: {integrity: sha512-H3MHACvFUEiujabxhaI/ImO6gUrd8oOurg7LQtS7mbwIXA/cUqWrvBsaeJ23aZEPk1TAYkurjfMbSELfoCXlGA==}
 
-  '@types/node@24.0.10':
-    resolution: {integrity: sha512-ENHwaH+JIRTDIEEbDK6QSQntAYGtbvdDXnMXnZaZ6k13Du1dPMmprkEHIL7ok2Wl2aZevetwTAb5S+7yIF+enA==}
+  '@types/node@24.0.13':
+    resolution: {integrity: sha512-Qm9OYVOFHFYg3wJoTSrz80hoec5Lia/dPp84do3X7dZvLikQvM1YpmvTBEdIr/e+U8HTkFjLHLnl78K/qjf+jQ==}
 
   abstract-logging@2.0.1:
     resolution: {integrity: sha512-2BjRTZxTPvheOvGbBslFSYOUkr+SjPtOnrLP33f+VIWLzezQpZcqVg7ja3L4dBXmzzgwT+a029jRx5PCi3JuiA==}
@@ -773,7 +773,7 @@ snapshots:
 
   '@types/lodash@4.17.20': {}
 
-  '@types/node@24.0.10':
+  '@types/node@24.0.13':
     dependencies:
       undici-types: 7.8.0
 
