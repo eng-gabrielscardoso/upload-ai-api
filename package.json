@@ -35,6 +35,6 @@
     "dotenv-safe": "^9.1.0",
     "fastify": "^5.4.0",
     "lodash": "^4.17.21",
-    "openai": "^5.8.2"
+    "openai": "^5.9.0"
   }
 }

@@ -33,8 +33,8 @@ importers:
         specifier: ^4.17.21
         version: 4.17.21
       openai:
-        specifier: ^5.8.2
-        version: 5.8.2(zod@3.25.76)
+        specifier: ^5.9.0
+        version: 5.9.0(zod@3.25.76)
     devDependencies:
       '@types/node':
         specifier: ^24.0.13
@@ -450,8 +450,8 @@ packages:
     resolution: {integrity: sha512-0eJJY6hXLGf1udHwfNftBqH+g73EU4B504nZeKpz1sYRKafAghwxEJunB2O7rDZkL4PGfsMVnTXZ2EjibbqcsA==}
     engines: {node: '>=14.0.0'}
 
-  openai@5.8.2:
-    resolution: {integrity: sha512-8C+nzoHYgyYOXhHGN6r0fcb4SznuEn1R7YZMvlqDbnCuE0FM2mm3T1HiYW6WIcMS/F1Of2up/cSPjLPaWt0X9Q==}
+  openai@5.9.0:
+    resolution: {integrity: sha512-cmLC0pfqLLhBGxE4aZPyRPjydgYCncppV2ClQkKmW79hNjCvmzkfhz8rN5/YVDmjVQlFV+UsF1JIuNjNgeagyQ==}
     hasBin: true
     peerDependencies:
       ws: ^8.18.0
@@ -945,7 +945,7 @@ snapshots:
 
   on-exit-leak-free@2.1.2: {}
 
-  openai@5.8.2(zod@3.25.76):
+  openai@5.9.0(zod@3.25.76):
     optionalDependencies:
       zod: 3.25.76
 
