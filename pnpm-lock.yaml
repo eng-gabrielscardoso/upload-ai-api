@@ -15,8 +15,8 @@ importers:
         specifier: ^9.2.1
         version: 9.2.1
       '@prisma/client':
-        specifier: 6.16.1
-        version: 6.16.1(prisma@6.16.1(typescript@5.9.2))(typescript@5.9.2)
+        specifier: 6.16.2
+        version: 6.16.2(prisma@6.16.1(typescript@5.9.2))(typescript@5.9.2)
       '@types/lodash':
         specifier: ^4.17.20
         version: 4.17.20
@@ -260,8 +260,8 @@ packages:
     resolution: {integrity: sha512-3giAOQvZiH5F9bMlMiv8+GSPMeqg0dbaeo58/0SlA9sxSqZhnUtxzX9/2FzyhS9sWQf5S0GJE0AKBrFqjpeYcg==}
     engines: {node: '>=8.0.0'}
 
-  '@prisma/client@6.16.1':
-    resolution: {integrity: sha512-QaBCOY29lLAxEFFJgBPyW3WInCW52fJeQTmWx/h6YsP5u0bwuqP51aP0uhqFvhK9DaZPwvai/M4tSDYLVE9vRg==}
+  '@prisma/client@6.16.2':
+    resolution: {integrity: sha512-E00PxBcalMfYO/TWnXobBVUai6eW/g5OsifWQsQDzJYm7yaY+IRLo7ZLsaefi0QkTpxfuhFcQ/w180i6kX3iJw==}
     engines: {node: '>=18.18'}
     peerDependencies:
       prisma: '*'
@@ -752,7 +752,7 @@ snapshots:
 
   '@opentelemetry/api@1.9.0': {}
 
-  '@prisma/client@6.16.1(prisma@6.16.1(typescript@5.9.2))(typescript@5.9.2)':
+  '@prisma/client@6.16.2(prisma@6.16.1(typescript@5.9.2))(typescript@5.9.2)':
     optionalDependencies:
       prisma: 6.16.1(typescript@5.9.2)
       typescript: 5.9.2
